@@ -7,14 +7,15 @@
 body {
     font-family: 'Muli', sans-serif;
     flex-direction: column;
-    padding: 0 50px;
     background-color: #1F2937;
+    margin: 0;
 }
 
 .nav-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 100px;
 }
 
 
@@ -42,6 +43,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 100px 0;
+    padding: 0 100px;
 }
 
 .hero .hero-information h1{
@@ -80,6 +82,7 @@ body {
     background-color: white;
     display: flex;
     flex-direction: column;
+    padding: 0 100px;
 }
 
 .information h2 {
@@ -108,4 +111,67 @@ body {
 
 .information .infor p {
     max-width: 150px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 50px 150px;
+}
+
+.quote p:first-child {
+    font-style: italic;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.quote #author {
+    font-weight: bold;
+    text-align: right;
+    font-size: 36px;
+    color: #1F2937;
+}
+
+.action {
+    background-color: white;
+    padding: 50px 100px;
+}
+
+.action .action-content {
+    border-radius: 10px;
+    background-color: #3882F6;
+    color: white;
+    padding: 25px 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.action .action-content h3 {
+    font-size: 20px;
+}
+
+.action .action-content p {
+    font-size: 16px;
+}
+
+.action .action-content #action-btn {
+    width: 180px;
+    height: 40px;
+    border-radius: 10px;
+    border: solid 2px white;
+    color: white;
+    background-color: #3882F6;
+    align-self: center;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.action .action-content #action-btn:active {
+    transform: scale(0.9);
+}
+
+footer {
+    background-color: #1F2937;
+    text-align: center;
+    padding: 20px 0;
+    color: white;
 }
